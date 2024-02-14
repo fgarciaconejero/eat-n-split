@@ -3,14 +3,14 @@ import Button from "./Button";
 
 export default function FormSplitBill({ friend, onSplitBill }) {
   const [bill, setBill] = useState("");
-  const [paidByUser, setPaidByUser] = useState("");
-  const paidByFriend = bill ? bill - paidByUser : "";
+  const [paidByUser, setPaidByUser] = useState(0);
+  const paidByFriend = bill ? bill - paidByUser : 0;
   const [whoIsPaying, setWhoIsPaying] = useState("user");
 
   function handleSubmit(e) {
     e.preventDefault();
 
-    if (!bill || !paidByUser) return;
+    if (!bill) return;
     onSplitBill(whoIsPaying === "user" ? paidByFriend : -paidByUser);
   }
 
