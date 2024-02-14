@@ -10,7 +10,7 @@ export default function FormSplitBill({ friend }) {
       <label>🧍 Your expense</label>
       <input type="text" />
 
-      <label>🧍 X's expense</label>
+      <label>🧍 {friend.name}'s expense</label>
       <input type="text" disabled />
 
       <label>🤑 Who is paying the bill</label>
