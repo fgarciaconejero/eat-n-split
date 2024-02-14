@@ -8,6 +8,8 @@ export default function FormAddFriends({ onAddFriend }) {
   function handleSubmit(e) {
     e.preventDefault();
 
+    if (!name || !image) return;
+
     const id = crypto.randomUUID;
     const newFriend = {
       id,
