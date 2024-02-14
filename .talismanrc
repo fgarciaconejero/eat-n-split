@@ -8,5 +8,5 @@ fileignoreconfig:
   - filename: src/components/Friend.js
     checksum: 758c253cc9d93d13cec7199ac7761d57969c978e9db50a72ae6b74f0557c89d1
   - filename: src/components/FriendsList.js
-    checksum: f10d996c73c11dc8a8e0f5a998e521b6cfdf837bf08e2e7cc2c5c7b8076af5c1
+    checksum: 0516a4b6f3ec49c44195bb833d203a9042ba082042e529998e93bb454351f2d7
 version: ""
