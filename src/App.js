@@ -32,6 +32,7 @@ export default function App() {
 
   function handleShowAddFriend() {
     setShowAddFriend(!showAddFriend);
+    setSelectedFriend(null);
   }
 
   function handleAddFriend(friend) {
@@ -41,6 +42,7 @@ export default function App() {
 
   function handleSelectFriend(friend) {
     setSelectedFriend((selectedFriend) => friend);
+    setShowAddFriend(false);
   }
 
   return (
