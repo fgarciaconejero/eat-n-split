@@ -1,9 +1,9 @@
 import Button from "./Button";
 
-export default function FormSplitBill() {
+export default function FormSplitBill({ friend }) {
   return (
     <form className="form-split-bill">
-      <h2>Split a bill with FRIEND</h2>
+      <h2>Split a bill with {friend.name}</h2>
       <label>💰 Bill value</label>
       <input type="text" />
 
