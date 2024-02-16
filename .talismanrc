@@ -7,4 +7,6 @@ fileignoreconfig:
     checksum: 2c782eaad050dec0c84ba03e75caa7438aef0bba47717b1dfbf33cced82bae2b
   - filename: src/components/Friend.js
     checksum: 56e88e2ec189655ab99663afcb4e47859ff13d029359bd561e33af4e13a7c9b5
+  - filename: src/App.js
+    checksum: b0946fafd3e99332ec5f0d26d59f5a1028ecdbf1cdcf5b796199cfd6d6895dbf
 version: ""
