@@ -1,8 +1,6 @@
 fileignoreconfig:
   - filename: package-lock.json
     checksum: 7da983c5eb3f93d79e1e50f5d097243d5e18f978219be4afc6ab03d7e7df5368
-  - filename: src/App.js
-    checksum: 56a9bebcfdb9f51d845963b4eb1f36eb9b9bd600ec471ac6034e48b16b3e89db
   - filename: src/FriendsList.js
     checksum: 2c782eaad050dec0c84ba03e75caa7438aef0bba47717b1dfbf33cced82bae2b
   - filename: src/components/Friend.js
